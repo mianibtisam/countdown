@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.container {
+    background-image: url(Prepare-Your-Home-for-Eid-Al-Adha-_-Body-5-23-6-23-1024x640.jpg);
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.bg-img {
+    overflow-y: hidden;
+}
+
+.cot-box {
+    height: 200px;
+    width: 600px;
+    /* border: 1px solid black; */
+    background-color: rgba(226, 204, 180, 0.575);
+    border-radius: 25px;
+    backdrop-filter: blur(30px);
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    padding: 12px;
+    color: #fff; /* Change text color to white */
+}
+
+.timer-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 18px;
+    color: #fff; /* Change text color to white */
+    margin: 18px;
+}
+
+p {
+    font-size: 36px;
+    font-weight: 400;
+    color: #fff; /* Change text color to white */
+}
+
+.timer-box > .span {
+    font-size: 18px;
+}
